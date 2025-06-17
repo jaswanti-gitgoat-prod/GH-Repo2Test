@@ -1,0 +1,27 @@
+{
+  "name": "MyVulnerableLib",
+  "version": "1.0.0",
+  "summary": "A test library with vulnerable CocoaPods dependencies.",
+  "description": "This is a deliberately vulnerable Podspec used for SCA and SBOM testing.",
+  "homepage": "https://example.com/MyVulnerableLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "******** G": "jas@example.com"
+  },
+  "source": {
+    "git": "https://github.com/example/MyVulnerableLib.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Classes/**/*.{h,m,swift}",
+  "dependencies": {
+    "AFNetworking": "~> 2.5.4",
+    "SDWebImage": "3.7.6",
+    "Socket.IO-Client-Swift": "13.3.0"
+  }
+}
